@@ -17,3 +17,10 @@
    ```bash
    pip install -r requirements.txt
    ```
+
+```
+ pip install "fastapi[standard]"
+uvicorn main:app --reload
+
+
+```

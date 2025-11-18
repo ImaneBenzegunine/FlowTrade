@@ -1,2 +1,5 @@
 yfinance
 flask
+fastapi
+pip install fastapi uvicorn yfinance pandas
+pip install azure-storage-blob
