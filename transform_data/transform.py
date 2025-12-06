@@ -1,9 +1,9 @@
 import json
 import csv
+import os
 
 # 1️⃣ Load your JSON file
-#with open("\transform_data\ev1-messages.json", "r") as f:
-with open(r"transform_data\ev1-messages.json", "r") as f:
+with open("ev1-messages.json", "r") as f:
     data = json.load(f)
 
 # 2️⃣ Prepare CSV columns
@@ -21,8 +21,15 @@ header = [
     "query_timestamp"
 ]
 
-# 3️⃣ Create CSV file
-with open("transform_data\eventhub_flattened.csv", "w", newline="", encoding="utf-8") as f:
+# 3️⃣ Ensure folder exists
+output_folder = "../data/transformed_data"
+os.makedirs(output_folder, exist_ok=True)
+
+# 4️⃣ CSV file path
+csv_file_path = os.path.join(output_folder, "eventhub_flattened.csv")
+
+# 5️⃣ Create CSV file
+with open(csv_file_path, "w", newline="", encoding="utf-8") as f:
     writer = csv.writer(f)
     writer.writerow(header)
 
@@ -59,4 +66,4 @@ with open("transform_data\eventhub_flattened.csv", "w", newline="", encoding="ut
                 query_ts
             ])
 
-print("CSV file generated successfully: eventhub_flattened.csv")
+print(f"✅ CSV file generated successfully: {csv_file_path}")
