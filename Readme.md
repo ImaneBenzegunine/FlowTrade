@@ -12,6 +12,7 @@
 ---
 
 ## 📖 Project Overview
+![Uploading image.png…]()
 
 This project is not just a data scraper; it is a fully automated **Cloud Data Engineering Pipeline**. It demonstrates the lifecycle of financial data—from extraction to visualization—using a modern **Google Cloud Platform (GCP)** infrastructure.
 
