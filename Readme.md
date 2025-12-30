@@ -56,7 +56,8 @@ flowchart LR
     F --> G
     G --> H
 
-    style Google_Cloud_Platform stroke:#FFD600,fill:#FFF9C4
+    style Google_Cloud_Platform stroke:#FFD600,fill:#FFF9C4  mermaid
+```
 🛠️ Technology Stack
 
 This project uses a "Best Tool for the Job" approach:
