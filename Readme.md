@@ -12,7 +12,8 @@
 ---
 
 ## 📖 Project Overview
-![Uploading image.png…]()
+
+<img width="1085" height="605" alt="image" src="https://github.com/user-attachments/assets/68363022-a9dd-42f1-a97e-663b715d093f" />
 
 This project is not just a data scraper; it is a fully automated **Cloud Data Engineering Pipeline**. It demonstrates the lifecycle of financial data—from extraction to visualization—using a modern **Google Cloud Platform (GCP)** infrastructure.
 
@@ -21,7 +22,7 @@ By leveraging **Serverless Computing**, **Streaming Protocols**, and **Data Lake
 <img width="904" height="384" alt="image" src="https://github.com/user-attachments/assets/6766e3fb-c551-45e0-b335-97032827806a" />
 
 ### 🎯 Key Objectives
-*   **Ingestion:** Harvest live OHLCV (Open, High, Low, Close, Volume) data every minute.
+*   **Ingestion:** Harvest live OHLCV (Open, High, Low, Close, Volume) data every 2 minutes.
 *   **Decoupling:** Use Message Queues to ensure data is never lost, even if the processing layer fails.
 *   **Data Lake:** Implement a "Raw" vs. "Curated" storage strategy for historical auditing.
 *   **Visualization:** Provide a live, interactive dashboard for trend analysis.
