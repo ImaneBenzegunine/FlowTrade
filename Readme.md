@@ -1,5 +1,5 @@
 
-# ⚡ GCP Real-Time Financial Data Pipeline
+# Real-Time Market Data Engineering Platform on Google Cloud (GCP)
 
 ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
